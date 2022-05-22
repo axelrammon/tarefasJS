@@ -7,7 +7,7 @@
 }
 
 body {
-  background-color: #ecf0f1;
+  background-color: #ccb9b3;
 }
 
 #container {
@@ -19,6 +19,7 @@ body {
   text-align: center;
   height: 100vh;
   padding: 10px;
+  margin: 40px 0;
 }
 
 #form input {
@@ -27,15 +28,23 @@ body {
   outline: none;
   margin-bottom: 10px;
   border: none;
-  border-bottom: 2px solid #16a085;
+  border-bottom: 2px solid #9a8581;
 }
 
 #form button {
   padding: 10px;
   border: none;
   cursor: pointer;
-  border-radius: 2px;
+  border-radius: 5px;
   margin: 10px;
+  background-color: #9a8581;
+  color: #ecf0f1;
+  transition: .5s;
+}
+
+#form button:hover {
+  background-color: #b69791;
+  transition: .5s;
 }
 
 ul {
@@ -47,13 +56,15 @@ ul {
 }
 
 #tarefas .tarefa {
-  background-color: #16a085;
+  background-color: #9a8581;
+  color: #ecf0f1;
   width: 130px;
   height: 130px;
   text-align: center;
   padding: 10px;
   font-family: 'Roboto', sans-serif;
   border-radius: 5px;
+
 }
 
 #tarefas .tarefa button {
